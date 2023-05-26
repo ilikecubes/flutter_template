@@ -1,0 +1,24 @@
+name: flutter_template
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0-63.1.beta <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cube_framework:
+    git:
+      url: https://github.com/ilikecubes/cube_framework.git
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
